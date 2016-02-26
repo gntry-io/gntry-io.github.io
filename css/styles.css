@@ -27,6 +27,16 @@ a {
 }
 a:hover {text-decoration:underline;}
 
+#about-text {
+     width:620px;
+     float:left
+}
+
+#docker-badge {
+     width:20px;
+     float:right
+}
+
 
 #maximage {
 	display:none;
@@ -50,8 +60,8 @@ a:hover {text-decoration:underline;}
 	float:left;
 	margin:40px;
 	position:absolute;
-	top:200px;
-	width:600px;
+	top:150px;
+	width:640px;
 	z-index:9999;
 	-webkit-font-smoothing:antialiased;
 }

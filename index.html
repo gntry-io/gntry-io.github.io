@@ -70,13 +70,20 @@
 
 		<!-- About Page -->
 		<section class="content hide" id="about">
-			<h1>About</h1>
-			<h5>Here's a little about what we're up to.</h5>
-			<p>We are all about new technology. New technology that supports DevOps, Lean and Agile.
-			We help you with training, consultancy, design, implementation and commoditization of all
-			up and coming technologies surrounding continuous integration and -delivery (CI/CD),
-			containerization,	virtualization, microservices and datacenter automation.</p>
-			<p><a href="https://twitter.com/gntryio">Follow our updates on Twitter</a></p>
+		<div id="about-content">
+			<div id="about-text">
+				<h1>About</h1>
+				<h5>Here's a little about what we're up to.</h5>
+				<p>We are all about new technology. New technology that supports DevOps, Lean and Agile.
+				We help you with training, consultancy, design, implementation and commoditization of all
+				up and coming technologies surrounding continuous integration and -delivery (CI/CD),
+				containerization,	virtualization, microservices and datacenter automation.</p>
+				<p><a href="https://twitter.com/gntryio">Follow our updates on Twitter</a></p>
+			</div>
+			<div id="docker-badge">
+				<img src="images/docker-badge-trans.png"/>
+			</div>
+		</div>
 		</section>
 
 		<!-- Contact Page -->
@@ -100,7 +107,7 @@
       ltr = coded.charAt(i)
       link += (ltr)
     }
-    else {     
+    else {
       ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
       link += (key.charAt(ltr))
     }
@@ -124,7 +131,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
       ltr = coded.charAt(i)
       link += (ltr)
     }
-    else {     
+    else {
       ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
       link += (key.charAt(ltr))
     }
